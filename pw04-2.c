@@ -7,7 +7,7 @@ int main(void)
 	float e;
 	
 	scanf("%hu %hu", &m, &v);
-	e = (float)main * value * value / 2;
+	e = (float)m * v * v / 2;
 
 	printf("E = %.2f\n", e);
 	printf("uint16_t: %llu bytes\n", (unsigned long long)sizeof(m));
